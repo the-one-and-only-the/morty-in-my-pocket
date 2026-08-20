@@ -1,25 +1,26 @@
 {
   "name": "Pocket Mortys",
-  "identifier": "com.pocketmortys.source",
   "subtitle": "Pocket Mortys AltStore Source",
   "description": "Pocket Mortys",
+  "iconURL": "https://raw.githubusercontent.com/the-one-and-only-the/morty-in-my-pocket/main/icon.png",
   "tintColor": "#F54F32",
+  "nsfw": false,
+  "featuredApps": [
+    "com.jeansantiago.offlinecampaign"
+  ],
   "apps": [
     {
       "name": "Pocket Morty OE",
       "bundleIdentifier": "com.jeansantiago.offlinecampaign",
       "developerName": "Adult Swim Games",
+      "version": "2.0.3",
+      "versionDate": "2026-08-20",
+      "downloadURL": "https://github.com/the-one-and-only-the/morty-in-my-pocket/releases/download/morty/PocketMortyOE.ipa",
       "localizedDescription": "Pocket Morty OE",
+      "iconURL": "https://raw.githubusercontent.com/the-one-and-only-the/morty-in-my-pocket/main/icon.png",
       "tintColor": "#F54F32",
-      "versions": [
-        {
-          "version": "2.0.3",
-          "date": "2026-08-20",
-          "localizedDescription": "Pocket Morty OE",
-          "downloadURL": "https://github.com/the-one-and-only-the/morty-in-my-pocket/releases/download/morty/PocketMortyOE.ipa",
-          "size": 139782463
-        }
-      ]
+      "size": 139782463,
+      "sha256": "011f896168c31249d39fe35a997a18a051222ab34e43c825d53e6bbb41954463"
     }
   ],
   "news": []
